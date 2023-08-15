@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/LogoTcaAtualizada.png" type="image/x-icon" width="32" height="32">    <link rel="stylesheet" href="Css/Estilo.css">
+    <title>Shadow Saint's Production's</title>
+</head>
+<body>
+    <div class="NomeEmpresa">
+        <h1>Sugestões</h1>
+        <p>Lost in the Abyss: Unnamed</p>
+    </div>
+        <div class="barraDeNavegacao">
+            <a href="Index.html">Home</a>
+            <a href="SobreNos.html">Sobre Nós</a>
+            <a href="SobreLostInTheAbyss.html">Sobre o Lost in the Abyss</a>
+            <a href="Sugestoes.html">Sugestões</a>
+        </div>
+
+        <div class="row">
+            <div class="side">
+              <h2>Deixe sua sugestão</h2>
+              <form id="sugestaoForm">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" required><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required><br>
+        
+                <label for="sugestao">Sugestão:</label><br>
+                <textarea id="sugestao" required></textarea><br>
+        
+                <input type="submit" value="Enviar"><br>
+              </form>
+            </div>
+        
+            <div class="main">
+              <h2>Sugestões Recebidas</h2>
+              <div id="sugestoesRecebidas"></div>
+            </div>
+          </div>
+        
+          <div class="footer">
+            <p>&copy; 2023 Shadow Saint's Production's. Todos os direitos reservados.</p>
+          </div>
+          <script src="JavaScript/script.js"></script>
+    </body>
+</html>
